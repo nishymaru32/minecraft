@@ -1,0 +1,297 @@
+[22jun2021 20:17:59.116] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--username, DeRouter, --version, 1.16.5-forge-36.1.25, --gameDir, C:\Users\lucas\AppData\Roaming\.minecraft, --assetsDir, C:\Users\lucas\AppData\Roaming\.minecraft\assets, --assetIndex, 1.16, --uuid, 0004c61756e6468657246656e6978000, --accessToken, ????????, --userType, legacy, --versionType, release, --launchTarget, fmlclient, --fml.forgeVersion, 36.1.25, --fml.mcVersion, 1.16.5, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20210115.111550]
+[22jun2021 20:17:59.120] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 8.0.9+86+master.3cf110c starting: java version 1.8.0_241 by Oracle Corporation
+[22jun2021 20:17:59.293] [main/INFO] [optifine.OptiFineTransformationService/]: OptiFineTransformationService.onLoad
+[22jun2021 20:17:59.295] [main/INFO] [optifine.OptiFineTransformationService/]: OptiFine ZIP file: C:\Users\lucas\AppData\Roaming\.minecraft\mods\OptiFine_1.16.5_HD_U_G8.jar
+[22jun2021 20:17:59.298] [main/INFO] [optifine.OptiFineTransformer/]: Target.PRE_CLASS is available
+[22jun2021 20:17:59.340] [main/INFO] [net.minecraftforge.fml.loading.FixSSL/CORE]: Added Lets Encrypt root certificates as additional trust
+[22jun2021 20:17:59.387] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.2 Source=file:/C:/Users/lucas/AppData/Roaming/.minecraft/libraries/org/spongepowered/mixin/0.8.2/mixin-0.8.2.jar Service=ModLauncher Env=CLIENT
+[22jun2021 20:17:59.397] [main/INFO] [optifine.OptiFineTransformationService/]: OptiFineTransformationService.initialize
+[22jun2021 20:18:00.885] [main/INFO] [optifine.OptiFineTransformationService/]: OptiFineTransformationService.transformers
+[22jun2021 20:18:00.912] [main/INFO] [optifine.OptiFineTransformer/]: Targets: 311
+[22jun2021 20:18:01.402] [main/INFO] [optifine.OptiFineTransformationService/]: additionalClassesLocator: [optifine., net.optifine.]
+[22jun2021 20:18:01.492] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'fmlclient' with arguments [--version, 1.16.5-forge-36.1.25, --gameDir, C:\Users\lucas\AppData\Roaming\.minecraft, --assetsDir, C:\Users\lucas\AppData\Roaming\.minecraft\assets, --uuid, 0004c61756e6468657246656e6978000, --username, DeRouter, --assetIndex, 1.16, --accessToken, ????????, --userType, legacy, --versionType, release]
+[22jun2021 20:18:12.451] [Render thread/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[22jun2021 20:18:13.780] [Render thread/ERROR] [net.minecraft.client.Minecraft/]: Failed to verify authentication
+com.mojang.authlib.exceptions.AuthenticationUnavailableException: null
+	at com.mojang.authlib.yggdrasil.YggdrasilSocialInteractionsService.checkPrivileges(YggdrasilSocialInteractionsService.java:97) ~[authlib-2.1.28.jar:?]
+	at com.mojang.authlib.yggdrasil.YggdrasilSocialInteractionsService.<init>(YggdrasilSocialInteractionsService.java:40) ~[authlib-2.1.28.jar:?]
+	at com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService.createSocialInteractionsService(YggdrasilAuthenticationService.java:152) ~[authlib-2.1.28.jar:?]
+	at net.minecraft.client.Minecraft.func_244735_a(Minecraft.java:551) ~[?:?]
+	at net.minecraft.client.Minecraft.<init>(Minecraft.java:383) ~[?:?]
+	at net.minecraft.client.main.Main.main(Main.java:149) ~[1.16.5-forge-36.1.25.jar:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_241]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source) ~[?:1.8.0_241]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source) ~[?:1.8.0_241]
+	at java.lang.reflect.Method.invoke(Unknown Source) ~[?:1.8.0_241]
+	at net.minecraftforge.fml.loading.FMLClientLaunchProvider.lambda$launchService$0(FMLClientLaunchProvider.java:51) ~[forge-1.16.5-36.1.25.jar:36.1]
+	at cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:37) [modlauncher-8.0.9.jar:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:54) [modlauncher-8.0.9.jar:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:72) [modlauncher-8.0.9.jar:?]
+	at cpw.mods.modlauncher.Launcher.run(Launcher.java:82) [modlauncher-8.0.9.jar:?]
+	at cpw.mods.modlauncher.Launcher.main(Launcher.java:66) [modlauncher-8.0.9.jar:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_241]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source) ~[?:1.8.0_241]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source) ~[?:1.8.0_241]
+	at java.lang.reflect.Method.invoke(Unknown Source) ~[?:1.8.0_241]
+	at net.minecraft.a.m.main(Unknown Source) [laulib-1.0.jar:?]
+[22jun2021 20:18:13.786] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Setting user: DeRouter
+[22jun2021 20:18:14.180] [Render thread/INFO] [net.optifine.Log/]: [OptiFine] (Reflector) Class not present: net.minecraft.launchwrapper.Launch
+[22jun2021 20:18:14.194] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Backend library: LWJGL version 3.2.2 build 10
+[22jun2021 20:18:14.494] [Render thread/INFO] [net.optifine.Config/]: [OptiFine] 
+[22jun2021 20:18:14.494] [Render thread/INFO] [net.optifine.Config/]: [OptiFine] OptiFine_1.16.5_HD_U_G8
+[22jun2021 20:18:14.507] [Render thread/INFO] [net.optifine.Config/]: [OptiFine] Build: 20210515-161946
+[22jun2021 20:18:14.507] [Render thread/INFO] [net.optifine.Config/]: [OptiFine] OS: Windows 10 (amd64) version 10.0
+[22jun2021 20:18:14.508] [Render thread/INFO] [net.optifine.Config/]: [OptiFine] Java: 1.8.0_241, Oracle Corporation
+[22jun2021 20:18:14.508] [Render thread/INFO] [net.optifine.Config/]: [OptiFine] VM: Java HotSpot(TM) 64-Bit Server VM (mixed mode), Oracle Corporation
+[22jun2021 20:18:14.508] [Render thread/INFO] [net.optifine.Config/]: [OptiFine] LWJGL: 3.3.0 Win32 WGL EGL OSMesa VisualC DLL
+[22jun2021 20:18:14.509] [Render thread/INFO] [net.optifine.Config/]: [OptiFine] OpenGL: Radeon RX 570 Series, version 4.6.14757 Compatibility Profile Context 20.11.2 27.20.14501.18003, ATI Technologies Inc.
+[22jun2021 20:18:14.512] [Render thread/INFO] [net.optifine.Config/]: [OptiFine] OpenGL Version: 4.6.14757
+[22jun2021 20:18:14.515] [Render thread/INFO] [net.optifine.Config/]: [OptiFine] OpenGL Fancy fog: Not available (GL_NV_fog_distance)
+[22jun2021 20:18:14.534] [Render thread/INFO] [net.optifine.Config/]: [OptiFine] Maximum texture size: 16384x16384
+[22jun2021 20:18:14.596] [Render thread/INFO] [net.optifine.shaders.SMCLog/]: [Shaders] OpenGL Version: 4.6.14757 Compatibility Profile Context 20.11.2 27.20.14501.18003
+[22jun2021 20:18:14.596] [Render thread/INFO] [net.optifine.shaders.SMCLog/]: [Shaders] Vendor:  ATI Technologies Inc.
+[22jun2021 20:18:14.597] [Render thread/INFO] [net.optifine.shaders.SMCLog/]: [Shaders] Renderer: Radeon RX 570 Series
+[22jun2021 20:18:14.597] [Render thread/INFO] [net.optifine.shaders.SMCLog/]: [Shaders] Capabilities:  2.0  2.1  3.0  3.2  4.0 
+[22jun2021 20:18:14.597] [Render thread/INFO] [net.optifine.shaders.SMCLog/]: [Shaders] GL_MAX_DRAW_BUFFERS: 8
+[22jun2021 20:18:14.597] [Render thread/INFO] [net.optifine.shaders.SMCLog/]: [Shaders] GL_MAX_COLOR_ATTACHMENTS_EXT: 8
+[22jun2021 20:18:14.597] [Render thread/INFO] [net.optifine.shaders.SMCLog/]: [Shaders] GL_MAX_TEXTURE_IMAGE_UNITS: 32
+[22jun2021 20:18:14.598] [Render thread/INFO] [net.optifine.shaders.SMCLog/]: [Shaders] Load shaders configuration.
+[22jun2021 20:18:14.602] [Render thread/INFO] [net.optifine.shaders.SMCLog/]: [Shaders] No shaderpack loaded.
+[22jun2021 20:18:14.606] [VersionCheck/INFO] [net.optifine.Config/]: [OptiFine] Checking for new version
+[22jun2021 20:18:14.627] [Render thread/INFO] [net.optifine.Log/]: [OptiFine] (Reflector) Class not present: net.minecraftforge.fml.common.Loader
+[22jun2021 20:18:15.229] [VersionCheck/INFO] [net.optifine.Config/]: [OptiFine] Version found: G7
+[22jun2021 20:18:15.590] [modloading-worker-5/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 36.1.25, for MC 1.16.5 with MCP 20210115.111550
+[22jun2021 20:18:15.591] [modloading-worker-5/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v36.1.25 Initialized
+[22jun2021 20:18:22.398] [Render thread/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry Biome: The object minecraft:the_end has been registered twice for the same name minecraft:the_end.
+[22jun2021 20:18:22.398] [Render thread/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry Biome: The object minecraft:end_barrens has been registered twice for the same name minecraft:end_barrens.
+[22jun2021 20:18:22.398] [Render thread/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry Biome: The object minecraft:small_end_islands has been registered twice for the same name minecraft:small_end_islands.
+[22jun2021 20:18:22.398] [Render thread/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry Biome: The object minecraft:end_midlands has been registered twice for the same name minecraft:end_midlands.
+[22jun2021 20:18:22.398] [Render thread/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry Biome: The object minecraft:end_highlands has been registered twice for the same name minecraft:end_highlands.
+[22jun2021 20:18:24.196] [Render thread/INFO] [com.mojang.text2speech.NarratorWindows/]: Narrator library for x64 successfully loaded
+[22jun2021 20:18:24.311] [Render thread/INFO] [net.minecraft.resources.SimpleReloadableResourceManager/]: Reloading ResourceManager: Mod Resources, Default
+[22jun2021 20:18:24.322] [Render thread/INFO] [net.optifine.Config/]: [OptiFine] *** Reloading textures ***
+[22jun2021 20:18:24.324] [Render thread/INFO] [net.optifine.Config/]: [OptiFine] Resource packs: Mod Resources
+[22jun2021 20:18:24.453] [Worker-Main-13/INFO] [net.optifine.Config/]: [OptiFine] Multitexture: false
+[22jun2021 20:18:24.490] [Render thread/INFO] [net.optifine.reflect.Reflector/]: [OptiFine] *** Reflector Forge ***
+[22jun2021 20:18:24.542] [Render thread/INFO] [net.optifine.Log/]: [OptiFine] (Reflector) Class not present: mods.betterfoliage.client.BetterFoliageClient
+[22jun2021 20:18:24.641] [Worker-Main-13/INFO] [net.optifine.Config/]: [OptiFine] Scaled non power of 2: jei:gui/icons/recipe_transfer, 7 -> 14
+[22jun2021 20:18:24.655] [Worker-Main-10/INFO] [net.optifine.Config/]: [OptiFine] Multitexture: false
+[22jun2021 20:18:24.655] [Worker-Main-9/INFO] [net.optifine.Config/]: [OptiFine] Multitexture: false
+[22jun2021 20:18:24.656] [Worker-Main-14/INFO] [net.optifine.Config/]: [OptiFine] Multitexture: false
+[22jun2021 20:18:24.726] [Render thread/INFO] [net.optifine.Log/]: [OptiFine] (Reflector) Field not present: net.minecraftforge.client.model.pipeline.LightUtil.itemConsumer
+[22jun2021 20:18:24.727] [Render thread/INFO] [net.optifine.Log/]: [OptiFine] (Reflector) Field not present: net.minecraftforge.client.model.pipeline.LightUtil.tessellator
+[22jun2021 20:18:24.733] [Render thread/INFO] [net.optifine.Log/]: [OptiFine] (Reflector) Class not present: net.minecraftforge.fml.common.ModContainer
+[22jun2021 20:18:24.783] [Render thread/INFO] [net.optifine.reflect.Reflector/]: [OptiFine] *** Reflector Vanilla ***
+[22jun2021 20:18:25.937] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
+[22jun2021 20:18:26.339] [Worker-Main-14/INFO] [net.optifine.Config/]: [OptiFine] Scaled non power of 2: atum:particle/tar, 5 -> 10
+[22jun2021 20:18:26.339] [Worker-Main-14/INFO] [net.optifine.Config/]: [OptiFine] Scaled non power of 2: atum:particle/tefnut, 3 -> 9
+[22jun2021 20:18:26.340] [Worker-Main-14/INFO] [net.optifine.Config/]: [OptiFine] Scaled non power of 2: atum:particle/light_sparkle, 3 -> 9
+[22jun2021 20:18:26.340] [Worker-Main-14/INFO] [net.optifine.Config/]: [OptiFine] Scaled non power of 2: atum:particle/nuit_black, 3 -> 9
+[22jun2021 20:18:26.340] [Worker-Main-14/INFO] [net.optifine.Config/]: [OptiFine] Scaled non power of 2: atum:particle/geb, 3 -> 9
+[22jun2021 20:18:26.340] [Worker-Main-14/INFO] [net.optifine.Config/]: [OptiFine] Scaled too small texture: atum:particle/ra_fire, 4 -> 8
+[22jun2021 20:18:26.340] [Worker-Main-14/INFO] [net.optifine.Config/]: [OptiFine] Scaled non power of 2: atum:particle/montu, 5 -> 10
+[22jun2021 20:18:26.340] [Worker-Main-14/INFO] [net.optifine.Config/]: [OptiFine] Scaled non power of 2: atum:particle/gas, 5 -> 10
+[22jun2021 20:18:26.340] [Worker-Main-14/INFO] [net.optifine.Config/]: [OptiFine] Scaled too small texture: atum:particle/shu, 4 -> 8
+[22jun2021 20:18:26.341] [Worker-Main-14/INFO] [net.optifine.Config/]: [OptiFine] Scaled too small texture: atum:particle/horus, 4 -> 8
+[22jun2021 20:18:26.341] [Worker-Main-14/INFO] [net.optifine.Config/]: [OptiFine] Scaled too small texture: atum:particle/seth, 2 -> 8
+[22jun2021 20:18:26.341] [Worker-Main-14/INFO] [net.optifine.Config/]: [OptiFine] Scaled non power of 2: atum:particle/anubis, 3 -> 9
+[22jun2021 20:18:26.341] [Worker-Main-14/INFO] [net.optifine.Config/]: [OptiFine] Scaled too small texture: atum:particle/anubis_skull, 4 -> 8
+[22jun2021 20:18:26.341] [Worker-Main-14/INFO] [net.optifine.Config/]: [OptiFine] Scaled non power of 2: atum:particle/isis, 3 -> 9
+[22jun2021 20:18:26.341] [Worker-Main-14/INFO] [net.optifine.Config/]: [OptiFine] Scaled non power of 2: atum:particle/nuit_white, 3 -> 9
+[22jun2021 20:18:26.653] [Render thread/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for astikorcarts:postilion, use EntityAttributeCreationEvent instead.
+[22jun2021 20:18:26.653] [Render thread/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for skyrimofficial:skyrimguard, use EntityAttributeCreationEvent instead.
+[22jun2021 20:18:26.653] [Render thread/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for skyrimofficial:stormcloack_guard, use EntityAttributeCreationEvent instead.
+[22jun2021 20:18:26.654] [Render thread/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for skyrimofficial:khajiit_guard, use EntityAttributeCreationEvent instead.
+[22jun2021 20:18:26.654] [Render thread/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for skyrimofficial:khajiit_trader, use EntityAttributeCreationEvent instead.
+[22jun2021 20:18:26.654] [Render thread/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for skyrimofficial:skeleton, use EntityAttributeCreationEvent instead.
+[22jun2021 20:18:26.654] [Render thread/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for skyrimofficial:draugr_armored, use EntityAttributeCreationEvent instead.
+[22jun2021 20:18:26.655] [Render thread/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for skyrimofficial:draugr, use EntityAttributeCreationEvent instead.
+[22jun2021 20:18:26.655] [Render thread/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for skyrimofficial:falmer, use EntityAttributeCreationEvent instead.
+[22jun2021 20:18:26.655] [Render thread/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for skyrimofficial:dwarven_spider, use EntityAttributeCreationEvent instead.
+[22jun2021 20:18:26.655] [Render thread/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for skyrimofficial:undead_pig, use EntityAttributeCreationEvent instead.
+[22jun2021 20:18:26.655] [Render thread/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for skyrimofficial:dremora, use EntityAttributeCreationEvent instead.
+[22jun2021 20:18:26.656] [Render thread/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for skyrimofficial:dremora_full_armor, use EntityAttributeCreationEvent instead.
+[22jun2021 20:18:26.656] [Render thread/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for skyrimofficial:molag_bal, use EntityAttributeCreationEvent instead.
+[22jun2021 20:18:26.656] [Render thread/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for skyrimofficial:gray_dragon, use EntityAttributeCreationEvent instead.
+[22jun2021 20:18:26.657] [Render thread/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for minecolonies:citizen, use EntityAttributeCreationEvent instead.
+[22jun2021 20:18:26.657] [Render thread/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for minecolonies:visitor, use EntityAttributeCreationEvent instead.
+[22jun2021 20:18:26.657] [Render thread/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for minecolonies:mercenary, use EntityAttributeCreationEvent instead.
+[22jun2021 20:18:26.657] [Render thread/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for minecolonies:mercenary, use EntityAttributeCreationEvent instead.
+[22jun2021 20:18:26.658] [Render thread/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for minecolonies:barbarian, use EntityAttributeCreationEvent instead.
+[22jun2021 20:18:26.658] [Render thread/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for minecolonies:archerbarbarian, use EntityAttributeCreationEvent instead.
+[22jun2021 20:18:26.658] [Render thread/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for minecolonies:chiefbarbarian, use EntityAttributeCreationEvent instead.
+[22jun2021 20:18:26.658] [Render thread/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for minecolonies:pharao, use EntityAttributeCreationEvent instead.
+[22jun2021 20:18:26.658] [Render thread/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for minecolonies:mummy, use EntityAttributeCreationEvent instead.
+[22jun2021 20:18:26.658] [Render thread/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for minecolonies:archermummy, use EntityAttributeCreationEvent instead.
+[22jun2021 20:18:26.658] [Render thread/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for minecolonies:pirate, use EntityAttributeCreationEvent instead.
+[22jun2021 20:18:26.658] [Render thread/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for minecolonies:archerpirate, use EntityAttributeCreationEvent instead.
+[22jun2021 20:18:26.658] [Render thread/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for minecolonies:chiefpirate, use EntityAttributeCreationEvent instead.
+[22jun2021 20:18:26.659] [Render thread/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for minecolonies:amazon, use EntityAttributeCreationEvent instead.
+[22jun2021 20:18:26.659] [Render thread/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for minecolonies:amazonchief, use EntityAttributeCreationEvent instead.
+[22jun2021 20:18:26.659] [Render thread/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for minecolonies:norsemenarcher, use EntityAttributeCreationEvent instead.
+[22jun2021 20:18:26.660] [Render thread/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for minecolonies:norsemenchief, use EntityAttributeCreationEvent instead.
+[22jun2021 20:18:26.660] [Render thread/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for minecolonies:shieldmaiden, use EntityAttributeCreationEvent instead.
+[22jun2021 20:18:26.663] [Render thread/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for betterendforge:end_fish, use EntityAttributeCreationEvent instead.
+[22jun2021 20:18:26.663] [Render thread/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for betterendforge:dragonfly, use EntityAttributeCreationEvent instead.
+[22jun2021 20:18:26.664] [Render thread/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for betterendforge:shadow_walker, use EntityAttributeCreationEvent instead.
+[22jun2021 20:18:26.665] [Render thread/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for betterendforge:end_slime, use EntityAttributeCreationEvent instead.
+[22jun2021 20:18:26.665] [Render thread/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for betterendforge:cubozoa, use EntityAttributeCreationEvent instead.
+[22jun2021 20:18:26.665] [Render thread/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for betterendforge:silk_moth, use EntityAttributeCreationEvent instead.
+[22jun2021 20:18:26.867] [Worker-Main-13/INFO] [structurize/]: Optifine found. Enabling compat.
+[22jun2021 20:18:27.453] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: OUTDATED Current: 36.1.25 Target: 36.1.32
+[22jun2021 20:18:27.454] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mvw] Starting version check at https://www.curseforge.com/minecraft/mc-mods/morevanillaweapons
+[22jun2021 20:18:28.001] [Forge Version Check/WARN] [net.minecraftforge.fml.VersionChecker/]: Failed to process update information
+java.io.IOException: Server returned HTTP response code: 403 for URL: https://www.curseforge.com/minecraft/mc-mods/morevanillaweapons
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method) ~[?:1.8.0_241]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source) ~[?:1.8.0_241]
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source) ~[?:1.8.0_241]
+	at java.lang.reflect.Constructor.newInstance(Unknown Source) ~[?:1.8.0_241]
+	at sun.net.www.protocol.http.HttpURLConnection$10.run(Unknown Source) ~[?:1.8.0_241]
+	at sun.net.www.protocol.http.HttpURLConnection$10.run(Unknown Source) ~[?:1.8.0_241]
+	at java.security.AccessController.doPrivileged(Native Method) ~[?:1.8.0_241]
+	at sun.net.www.protocol.http.HttpURLConnection.getChainedException(Unknown Source) ~[?:1.8.0_241]
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(Unknown Source) ~[?:1.8.0_241]
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(Unknown Source) ~[?:1.8.0_241]
+	at sun.net.www.protocol.https.HttpsURLConnectionImpl.getInputStream(Unknown Source) ~[?:1.8.0_241]
+	at net.minecraftforge.fml.VersionChecker$1.openUrlStream(VersionChecker.java:171) ~[forge:?]
+	at net.minecraftforge.fml.VersionChecker$1.process(VersionChecker.java:187) ~[forge:?]
+	at java.lang.Iterable.forEach(Unknown Source) [?:1.8.0_241]
+	at net.minecraftforge.fml.VersionChecker$1.run(VersionChecker.java:139) [forge:?]
+Caused by: java.io.IOException: Server returned HTTP response code: 403 for URL: https://www.curseforge.com/minecraft/mc-mods/morevanillaweapons
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(Unknown Source) ~[?:1.8.0_241]
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(Unknown Source) ~[?:1.8.0_241]
+	at java.net.HttpURLConnection.getResponseCode(Unknown Source) ~[?:1.8.0_241]
+	at sun.net.www.protocol.https.HttpsURLConnectionImpl.getResponseCode(Unknown Source) ~[?:1.8.0_241]
+	at net.minecraftforge.fml.VersionChecker$1.openUrlStream(VersionChecker.java:155) ~[forge:?]
+	... 3 more
+[22jun2021 20:18:31.181] [Worker-Main-8/WARN] [net.minecraft.client.renderer.model.ModelBakery/]: Exception loading blockstate definition: betterendforge:blockstates/pearlberry_seed.json: java.io.FileNotFoundException: betterendforge:blockstates/pearlberry_seed.json
+[22jun2021 20:18:31.182] [Worker-Main-8/WARN] [net.minecraft.client.renderer.model.ModelBakery/]: Exception loading blockstate definition: 'betterendforge:blockstates/pearlberry_seed.json' missing model for variant: 'betterendforge:pearlberry_seed#age=0'
+[22jun2021 20:18:31.182] [Worker-Main-8/WARN] [net.minecraft.client.renderer.model.ModelBakery/]: Exception loading blockstate definition: 'betterendforge:blockstates/pearlberry_seed.json' missing model for variant: 'betterendforge:pearlberry_seed#age=1'
+[22jun2021 20:18:31.182] [Worker-Main-8/WARN] [net.minecraft.client.renderer.model.ModelBakery/]: Exception loading blockstate definition: 'betterendforge:blockstates/pearlberry_seed.json' missing model for variant: 'betterendforge:pearlberry_seed#age=2'
+[22jun2021 20:18:31.182] [Worker-Main-8/WARN] [net.minecraft.client.renderer.model.ModelBakery/]: Exception loading blockstate definition: 'betterendforge:blockstates/pearlberry_seed.json' missing model for variant: 'betterendforge:pearlberry_seed#age=3'
+[22jun2021 20:18:33.079] [Worker-Main-8/WARN] [net.minecraft.client.renderer.model.ModelBakery/]: Unable to load model: 'betterendforge:pearlberry_seed#inventory' referenced from: betterendforge:pearlberry_seed#inventory: {}
+[22jun2021 20:18:33.080] [Worker-Main-8/WARN] [net.minecraft.client.renderer.model.ModelBakery/]: java.io.FileNotFoundException: betterendforge:models/item/pearlberry_seed.json
+[22jun2021 20:18:33.174] [Worker-Main-8/WARN] [net.optifine.Config/]: [OptiFine] Unknown resource pack file: mod_resources
+[22jun2021 20:18:33.174] [Worker-Main-8/WARN] [net.optifine.Config/]: [OptiFine] Unknown resource pack file: mod_resources
+[22jun2021 20:18:33.175] [Worker-Main-8/WARN] [net.optifine.Config/]: [OptiFine] Unknown resource pack file: mod_resources
+[22jun2021 20:18:33.175] [Worker-Main-8/WARN] [net.optifine.Config/]: [OptiFine] Unknown resource pack file: mod_resources
+[22jun2021 20:18:35.668] [Worker-Main-8/WARN] [net.minecraft.client.renderer.model.ModelBakery/]: Unable to resolve texture reference: #3 in 
+[22jun2021 20:18:35.668] [Worker-Main-8/WARN] [net.minecraft.client.renderer.model.ModelBakery/]: Unable to resolve texture reference: #missing in minecolonies:block/decorationcontroller
+[22jun2021 20:18:35.668] [Worker-Main-8/WARN] [net.minecraft.client.renderer.model.ModelBakery/]: Unable to resolve texture reference: #missing in minecolonies:block/blockhutplantation
+[22jun2021 20:18:35.669] [Worker-Main-8/WARN] [net.minecraft.client.renderer.model.ModelBakery/]: Unable to resolve texture reference: #missing in minecolonies:item/blockhutplantation
+[22jun2021 20:18:35.669] [Worker-Main-8/WARN] [net.minecraft.client.renderer.model.ModelBakery/]: Unable to resolve texture reference: #missing in minecolonies:item/decorationcontroller
+[22jun2021 20:18:35.672] [Worker-Main-8/INFO] [net.optifine.Config/]: [OptiFine] Multitexture: false
+[22jun2021 20:18:35.684] [Worker-Main-8/WARN] [net.optifine.Config/]: [OptiFine] Unknown resource pack file: mod_resources
+[22jun2021 20:18:35.687] [Worker-Main-8/INFO] [net.optifine.Config/]: [OptiFine] Multipass connected textures: false
+[22jun2021 20:18:35.690] [Worker-Main-8/INFO] [net.optifine.Config/]: [OptiFine] ConnectedTextures: optifine/ctm/default/00_glass_white/glass_pane_white.properties
+[22jun2021 20:18:35.743] [Worker-Main-8/INFO] [net.optifine.Config/]: [OptiFine] ConnectedTextures: optifine/ctm/default/00_glass_white/glass_white.properties
+[22jun2021 20:18:35.754] [Worker-Main-8/INFO] [net.optifine.Config/]: [OptiFine] ConnectedTextures: optifine/ctm/default/01_glass_orange/glass_orange.properties
+[22jun2021 20:18:35.764] [Worker-Main-8/INFO] [net.optifine.Config/]: [OptiFine] ConnectedTextures: optifine/ctm/default/01_glass_orange/glass_pane_orange.properties
+[22jun2021 20:18:35.774] [Worker-Main-8/INFO] [net.optifine.Config/]: [OptiFine] ConnectedTextures: optifine/ctm/default/02_glass_magenta/glass_magenta.properties
+[22jun2021 20:18:35.784] [Worker-Main-8/INFO] [net.optifine.Config/]: [OptiFine] ConnectedTextures: optifine/ctm/default/02_glass_magenta/glass_pane_magenta.properties
+[22jun2021 20:18:35.795] [Worker-Main-8/INFO] [net.optifine.Config/]: [OptiFine] ConnectedTextures: optifine/ctm/default/03_glass_light_blue/glass_light_blue.properties
+[22jun2021 20:18:35.806] [Worker-Main-8/INFO] [net.optifine.Config/]: [OptiFine] ConnectedTextures: optifine/ctm/default/03_glass_light_blue/glass_pane_light_blue.properties
+[22jun2021 20:18:35.815] [Worker-Main-8/INFO] [net.optifine.Config/]: [OptiFine] ConnectedTextures: optifine/ctm/default/04_glass_yellow/glass_pane_yellow.properties
+[22jun2021 20:18:35.824] [Worker-Main-8/INFO] [net.optifine.Config/]: [OptiFine] ConnectedTextures: optifine/ctm/default/04_glass_yellow/glass_yellow.properties
+[22jun2021 20:18:35.833] [Worker-Main-8/INFO] [net.optifine.Config/]: [OptiFine] ConnectedTextures: optifine/ctm/default/05_glass_lime/glass_lime.properties
+[22jun2021 20:18:35.842] [Worker-Main-8/INFO] [net.optifine.Config/]: [OptiFine] ConnectedTextures: optifine/ctm/default/05_glass_lime/glass_pane_lime.properties
+[22jun2021 20:18:35.852] [Worker-Main-8/INFO] [net.optifine.Config/]: [OptiFine] ConnectedTextures: optifine/ctm/default/06_glass_pink/glass_pane_pink.properties
+[22jun2021 20:18:35.862] [Worker-Main-8/INFO] [net.optifine.Config/]: [OptiFine] ConnectedTextures: optifine/ctm/default/06_glass_pink/glass_pink.properties
+[22jun2021 20:18:35.871] [Worker-Main-8/INFO] [net.optifine.Config/]: [OptiFine] ConnectedTextures: optifine/ctm/default/07_glass_gray/glass_gray.properties
+[22jun2021 20:18:35.879] [Worker-Main-8/INFO] [net.optifine.Config/]: [OptiFine] ConnectedTextures: optifine/ctm/default/07_glass_gray/glass_pane_gray.properties
+[22jun2021 20:18:35.887] [Worker-Main-8/INFO] [net.optifine.Config/]: [OptiFine] ConnectedTextures: optifine/ctm/default/08_glass_light_gray/glass_light_gray.properties
+[22jun2021 20:18:35.913] [Worker-Main-8/INFO] [net.optifine.Config/]: [OptiFine] ConnectedTextures: optifine/ctm/default/08_glass_light_gray/glass_pane_light_gray.properties
+[22jun2021 20:18:35.922] [Worker-Main-8/INFO] [net.optifine.Config/]: [OptiFine] ConnectedTextures: optifine/ctm/default/09_glass_cyan/glass_cyan.properties
+[22jun2021 20:18:35.930] [Worker-Main-8/INFO] [net.optifine.Config/]: [OptiFine] ConnectedTextures: optifine/ctm/default/09_glass_cyan/glass_pane_cyan.properties
+[22jun2021 20:18:35.938] [Worker-Main-8/INFO] [net.optifine.Config/]: [OptiFine] ConnectedTextures: optifine/ctm/default/10_glass_purple/glass_pane_purple.properties
+[22jun2021 20:18:35.948] [Worker-Main-8/INFO] [net.optifine.Config/]: [OptiFine] ConnectedTextures: optifine/ctm/default/10_glass_purple/glass_purple.properties
+[22jun2021 20:18:35.956] [Worker-Main-8/INFO] [net.optifine.Config/]: [OptiFine] ConnectedTextures: optifine/ctm/default/11_glass_blue/glass_blue.properties
+[22jun2021 20:18:35.966] [Worker-Main-8/INFO] [net.optifine.Config/]: [OptiFine] ConnectedTextures: optifine/ctm/default/11_glass_blue/glass_pane_blue.properties
+[22jun2021 20:18:35.974] [Worker-Main-8/INFO] [net.optifine.Config/]: [OptiFine] ConnectedTextures: optifine/ctm/default/12_glass_brown/glass_brown.properties
+[22jun2021 20:18:35.982] [Worker-Main-8/INFO] [net.optifine.Config/]: [OptiFine] ConnectedTextures: optifine/ctm/default/12_glass_brown/glass_pane_brown.properties
+[22jun2021 20:18:35.989] [Worker-Main-8/INFO] [net.optifine.Config/]: [OptiFine] ConnectedTextures: optifine/ctm/default/13_glass_green/glass_green.properties
+[22jun2021 20:18:35.998] [Worker-Main-8/INFO] [net.optifine.Config/]: [OptiFine] ConnectedTextures: optifine/ctm/default/13_glass_green/glass_pane_green.properties
+[22jun2021 20:18:36.005] [Worker-Main-8/INFO] [net.optifine.Config/]: [OptiFine] ConnectedTextures: optifine/ctm/default/14_glass_red/glass_pane_red.properties
+[22jun2021 20:18:36.014] [Worker-Main-8/INFO] [net.optifine.Config/]: [OptiFine] ConnectedTextures: optifine/ctm/default/14_glass_red/glass_red.properties
+[22jun2021 20:18:36.041] [Worker-Main-8/INFO] [net.optifine.Config/]: [OptiFine] ConnectedTextures: optifine/ctm/default/15_glass_black/glass_black.properties
+[22jun2021 20:18:36.051] [Worker-Main-8/INFO] [net.optifine.Config/]: [OptiFine] ConnectedTextures: optifine/ctm/default/15_glass_black/glass_pane_black.properties
+[22jun2021 20:18:36.058] [Worker-Main-8/INFO] [net.optifine.Config/]: [OptiFine] ConnectedTextures: optifine/ctm/default/20_glass/glass.properties
+[22jun2021 20:18:36.067] [Worker-Main-8/INFO] [net.optifine.Config/]: [OptiFine] ConnectedTextures: optifine/ctm/default/20_glass/glass_pane.properties
+[22jun2021 20:18:36.076] [Worker-Main-8/INFO] [net.optifine.Config/]: [OptiFine] ConnectedTextures: optifine/ctm/default/30_bookshelf/bookshelf.properties
+[22jun2021 20:18:36.077] [Worker-Main-8/INFO] [net.optifine.Config/]: [OptiFine] ConnectedTextures: optifine/ctm/default/40_sandstone/sandstone.properties
+[22jun2021 20:18:36.078] [Worker-Main-8/INFO] [net.optifine.Config/]: [OptiFine] ConnectedTextures: optifine/ctm/default/41_red_sandstone/red_sandstone.properties
+[22jun2021 20:18:36.079] [Worker-Main-8/INFO] [net.optifine.Config/]: [OptiFine] Multipass connected textures: false
+[22jun2021 20:18:36.083] [Worker-Main-8/INFO] [net.optifine.Config/]: [OptiFine] BetterGrass: Parsing default configuration optifine/bettergrass.properties
+[22jun2021 20:18:44.140] [Worker-Main-8/INFO] [net.optifine.Config/]: [OptiFine] Mipmap levels: 4
+[22jun2021 20:18:44.997] [Worker-Main-8/INFO] [net.optifine.Config/]: [OptiFine] Scaled non power of 2: minecolonies:gui/builderhut/builder_paper_sketch, 190 -> 192
+[22jun2021 20:18:44.997] [Worker-Main-8/WARN] [net.minecraft.client.renderer.texture.AtlasTexture/]: Texture minecolonies:gui/builderhut/builder_paper_sketch with size 192x246 limits mip level from 4 to 1
+[22jun2021 20:18:44.998] [Worker-Main-8/INFO] [net.optifine.Config/]: [OptiFine] Scaled non power of 2: minecolonies:gui/builderhut/builder_paper, 190 -> 192
+[22jun2021 20:18:44.998] [Worker-Main-8/INFO] [net.optifine.Config/]: [OptiFine] Scaled non power of 2: minecolonies:blocks/books/paper_graveyard, 52 -> 64
+[22jun2021 20:18:44.999] [Worker-Main-8/INFO] [net.optifine.Config/]: [OptiFine] Scaled too small texture: minecolonies:blocks/plate, 8 -> 16
+[22jun2021 20:18:45.000] [Worker-Main-8/INFO] [net.optifine.Config/]: [OptiFine] Scaled too small texture: skyrimofficial:blocks/mesh_palette, 4 -> 16
+[22jun2021 20:18:45.001] [Worker-Main-8/WARN] [net.minecraft.client.renderer.texture.AtlasTexture/]: minecraft:textures/atlas/blocks.png: dropping miplevel from 4 to 1, because of minimum power of two: 2
+[22jun2021 20:18:46.085] [Worker-Main-8/INFO] [net.optifine.Config/]: [OptiFine] Multitexture: false
+[22jun2021 20:18:46.099] [Worker-Main-8/INFO] [net.optifine.Config/]: [OptiFine] Sprite size: 64
+[22jun2021 20:18:46.099] [Worker-Main-8/INFO] [net.optifine.Config/]: [OptiFine] Mipmap levels: 6
+[22jun2021 20:18:46.107] [Worker-Main-8/INFO] [net.optifine.Config/]: [OptiFine] Multitexture: false
+[22jun2021 20:18:46.169] [Worker-Main-8/INFO] [net.optifine.Config/]: [OptiFine] Sprite size: 64
+[22jun2021 20:18:46.169] [Worker-Main-8/INFO] [net.optifine.Config/]: [OptiFine] Mipmap levels: 6
+[22jun2021 20:18:46.185] [Worker-Main-8/INFO] [net.optifine.Config/]: [OptiFine] Multitexture: false
+[22jun2021 20:18:46.250] [Worker-Main-8/INFO] [net.optifine.Config/]: [OptiFine] Sprite size: 64
+[22jun2021 20:18:46.250] [Worker-Main-8/INFO] [net.optifine.Config/]: [OptiFine] Mipmap levels: 6
+[22jun2021 20:18:46.257] [Worker-Main-8/INFO] [net.optifine.Config/]: [OptiFine] Scaled too small texture: atum:shield/stoneguard_shield, 32 -> 64
+[22jun2021 20:18:46.257] [Worker-Main-8/INFO] [net.optifine.Config/]: [OptiFine] Scaled too small texture: atum:shield/brigand_shield, 32 -> 64
+[22jun2021 20:18:46.257] [Worker-Main-8/INFO] [net.optifine.Config/]: [OptiFine] Scaled too small texture: atum:shield/atems_protection, 32 -> 64
+[22jun2021 20:18:46.266] [Worker-Main-8/INFO] [net.optifine.Config/]: [OptiFine] Multitexture: false
+[22jun2021 20:18:46.288] [Worker-Main-8/INFO] [net.optifine.Config/]: [OptiFine] Sprite size: 64
+[22jun2021 20:18:46.288] [Worker-Main-8/INFO] [net.optifine.Config/]: [OptiFine] Mipmap levels: 6
+[22jun2021 20:18:46.292] [Worker-Main-8/INFO] [net.optifine.Config/]: [OptiFine] Multitexture: false
+[22jun2021 20:18:46.318] [Worker-Main-8/INFO] [net.optifine.Config/]: [OptiFine] Sprite size: 64
+[22jun2021 20:18:46.318] [Worker-Main-8/INFO] [net.optifine.Config/]: [OptiFine] Mipmap levels: 6
+[22jun2021 20:18:46.326] [Worker-Main-8/INFO] [net.optifine.Config/]: [OptiFine] Multitexture: false
+[22jun2021 20:18:46.355] [Worker-Main-8/INFO] [net.optifine.Config/]: [OptiFine] Sprite size: 64
+[22jun2021 20:18:46.355] [Worker-Main-8/INFO] [net.optifine.Config/]: [OptiFine] Mipmap levels: 6
+[22jun2021 20:18:46.439] [Worker-Main-8/WARN] [minecolonies/]: FMLLoadCompleteEvent
+[22jun2021 20:18:46.459] [Worker-Main-8/WARN] [minecolonies/]: Register mappings
+[22jun2021 20:18:50.020] [Render thread/INFO] [net.minecraft.client.audio.SoundSystem/]: OpenAL initialized.
+[22jun2021 20:18:50.021] [Render thread/INFO] [net.minecraft.client.audio.SoundEngine/SOUNDS]: Sound engine started
+[22jun2021 20:18:50.387] [Render thread/INFO] [net.minecraft.client.renderer.texture.AtlasTexture/]: Created: 128x256x0 jei:textures/atlas/gui.png-atlas
+[22jun2021 20:18:50.389] [Render thread/INFO] [net.optifine.Config/]: [OptiFine] Animated sprites: 0
+[22jun2021 20:18:50.389] [Render thread/WARN] [net.optifine.Config/]: [OptiFine] Invalid grid V: 16, icon: jei:gui/icons/config_button
+[22jun2021 20:18:50.390] [Render thread/WARN] [net.optifine.Config/]: [OptiFine] Invalid grid V: 16, icon: jei:gui/icons/config_button
+[22jun2021 20:18:50.390] [Render thread/WARN] [net.optifine.Config/]: [OptiFine] Invalid grid V: 16, icon: jei:gui/icons/config_button_cheat
+[22jun2021 20:18:50.390] [Render thread/WARN] [net.optifine.Config/]: [OptiFine] Invalid grid V: 16, icon: jei:gui/icons/config_button_cheat
+[22jun2021 20:18:50.390] [Render thread/WARN] [net.optifine.Config/]: [OptiFine] Invalid grid V: 16, icon: jei:gui/icons/arrow_previous
+[22jun2021 20:18:50.390] [Render thread/WARN] [net.optifine.Config/]: [OptiFine] Invalid grid V: 16, icon: jei:gui/icons/arrow_previous
+[22jun2021 20:18:50.390] [Render thread/WARN] [net.optifine.Config/]: [OptiFine] Invalid grid V: 16, icon: jei:gui/icons/arrow_next
+[22jun2021 20:18:50.390] [Render thread/WARN] [net.optifine.Config/]: [OptiFine] Invalid grid V: 16, icon: jei:gui/icons/arrow_next
+[22jun2021 20:18:50.390] [Render thread/WARN] [net.optifine.Config/]: [OptiFine] Invalid grid V: 16, icon: minecraft:missingno
+[22jun2021 20:18:50.390] [Render thread/WARN] [net.optifine.Config/]: [OptiFine] Invalid grid V: 16, icon: minecraft:missingno
+[22jun2021 20:18:50.390] [Render thread/WARN] [net.optifine.Config/]: [OptiFine] Invalid grid V: 16, icon: jei:gui/icons/info
+[22jun2021 20:18:50.390] [Render thread/WARN] [net.optifine.Config/]: [OptiFine] Invalid grid V: 16, icon: jei:gui/icons/info
+[22jun2021 20:18:50.390] [Render thread/WARN] [net.optifine.Config/]: [OptiFine] Invalid grid V: 16, icon: jei:gui/icons/recipe_transfer
+[22jun2021 20:18:50.390] [Render thread/WARN] [net.optifine.Config/]: [OptiFine] Invalid grid V: 16, icon: jei:gui/icons/recipe_transfer
+[22jun2021 20:18:50.392] [Render thread/INFO] [net.minecraft.client.renderer.texture.AtlasTexture/]: Created: 2048x2048x1 minecraft:textures/atlas/blocks.png-atlas
+[22jun2021 20:18:50.610] [Render thread/INFO] [net.optifine.Config/]: [OptiFine] Animated sprites: 78
+[22jun2021 20:18:50.615] [Render thread/INFO] [net.minecraft.client.renderer.texture.AtlasTexture/]: Created: 256x128x4 minecraft:textures/atlas/signs.png-atlas
+[22jun2021 20:18:50.617] [Render thread/INFO] [net.optifine.Config/]: [OptiFine] Animated sprites: 0
+[22jun2021 20:18:50.617] [Render thread/INFO] [net.minecraft.client.renderer.texture.AtlasTexture/]: Created: 512x512x4 minecraft:textures/atlas/banner_patterns.png-atlas
+[22jun2021 20:18:50.623] [Render thread/INFO] [net.optifine.Config/]: [OptiFine] Animated sprites: 0
+[22jun2021 20:18:50.624] [Render thread/INFO] [net.minecraft.client.renderer.texture.AtlasTexture/]: Created: 512x512x4 minecraft:textures/atlas/shield_patterns.png-atlas
+[22jun2021 20:18:50.631] [Render thread/INFO] [net.optifine.Config/]: [OptiFine] Animated sprites: 0
+[22jun2021 20:18:50.632] [Render thread/INFO] [net.minecraft.client.renderer.texture.AtlasTexture/]: Created: 256x256x4 minecraft:textures/atlas/chest.png-atlas
+[22jun2021 20:18:50.635] [Render thread/INFO] [net.optifine.Config/]: [OptiFine] Animated sprites: 0
+[22jun2021 20:18:50.636] [Render thread/INFO] [net.minecraft.client.renderer.texture.AtlasTexture/]: Created: 512x256x4 minecraft:textures/atlas/beds.png-atlas
+[22jun2021 20:18:50.639] [Render thread/INFO] [net.optifine.Config/]: [OptiFine] Animated sprites: 0
+[22jun2021 20:18:50.639] [Render thread/INFO] [net.minecraft.client.renderer.texture.AtlasTexture/]: Created: 512x256x4 minecraft:textures/atlas/shulker_boxes.png-atlas
+[22jun2021 20:18:50.643] [Render thread/INFO] [net.optifine.Config/]: [OptiFine] Animated sprites: 0
+[22jun2021 20:19:22.703] [Render thread/INFO] [net.minecraft.client.renderer.texture.AtlasTexture/]: Created: 256x256x0 minecraft:textures/atlas/particles.png-atlas
+[22jun2021 20:19:22.714] [Render thread/INFO] [net.optifine.Config/]: [OptiFine] Animated sprites: 0
+[22jun2021 20:19:22.717] [Render thread/INFO] [net.minecraft.client.renderer.texture.AtlasTexture/]: Created: 256x256x0 minecraft:textures/atlas/paintings.png-atlas
+[22jun2021 20:19:22.718] [Render thread/INFO] [net.optifine.Config/]: [OptiFine] Animated sprites: 0
+[22jun2021 20:19:22.719] [Render thread/INFO] [net.minecraft.client.renderer.texture.AtlasTexture/]: Created: 256x256x0 minecraft:textures/atlas/mob_effects.png-atlas
+[22jun2021 20:19:22.720] [Render thread/INFO] [net.optifine.Config/]: [OptiFine] Animated sprites: 0
+[22jun2021 20:19:22.722] [Render thread/INFO] [net.optifine.Config/]: [OptiFine] *** Reloading custom textures ***
+[22jun2021 20:19:22.739] [Render thread/WARN] [net.optifine.Config/]: [OptiFine] Unknown resource pack file: mod_resources
+[22jun2021 20:19:25.058] [Render thread/WARN] [net.optifine.Config/]: [OptiFine] Unknown resource pack file: mod_resources
+[22jun2021 20:19:25.061] [Render thread/WARN] [net.optifine.Config/]: [OptiFine] Unknown resource pack file: mod_resources
